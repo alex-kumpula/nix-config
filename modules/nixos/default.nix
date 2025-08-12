@@ -9,4 +9,5 @@
   alacritty = import ./alacritty.nix;
   firefox = import ./firefox.nix;
   git = import ./git.nix;
+  gdm = import ./gdm.nix;
 }
