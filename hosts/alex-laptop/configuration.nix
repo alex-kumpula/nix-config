@@ -16,6 +16,8 @@
     outputs.nixosModules.gnome
     outputs.nixosModules.niri
     outputs.nixosModules.alacritty
+    outputs.nixosModules.firefox
+    outputs.nixosModules.git
 
     # Or modules from other flakes (such as nixos-hardware):
     # inputs.hardware.nixosModules.common-cpu-amd
@@ -133,18 +135,7 @@
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
-  # services.xserver.libinput.enable = true;
-
-  # Install firefox.
-  programs.firefox.enable = true;
-
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-    git
-  ];
+  services.xserver.libinput.enable = true;
 
 ######################################################
 

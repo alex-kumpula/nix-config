@@ -7,4 +7,6 @@
   gnome = import ./gnome.nix;
   niri = import ./niri.nix;
   alacritty = import ./alacritty.nix;
+  firefox = import ./firefox.nix;
+  git = import ./git.nix;
 }
