@@ -6,4 +6,5 @@
 
   gnome = import ./gnome.nix;
   niri = import ./niri.nix;
+  alacritty = import ./alacritty.nix;
 }
