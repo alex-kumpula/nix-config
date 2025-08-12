@@ -5,4 +5,5 @@
   # my-module = import ./my-module.nix;
 
   gnome = import ./gnome.nix;
+  niri = import ./niri.nix;
 }
