@@ -1,7 +1,7 @@
 { ... }:
 {
-  home.file.".config" = {
-    source = ./.config;
+  home.file.".config/waybar" = {
+    source = ./waybar;
     recursive = true; # link recursively
   };
 }
