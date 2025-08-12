@@ -21,6 +21,7 @@
     outputs.homeManagerModules.fuzzel
     outputs.homeManagerModules.pavucontrol
     outputs.homeManagerModules.discord
+    outputs.homeManagerModules.vscode-fsh
 
     outputs.dotfilesModules.niri
     outputs.dotfilesModules.waybar

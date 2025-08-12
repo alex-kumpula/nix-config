@@ -12,4 +12,5 @@
   fuzzel = import ./fuzzel.nix;
   discord = import ./discord.nix;
   pavucontrol = import ./pavucontrol.nix;
+  vscode-fsh = import ./vscode-fsh.nix;
 }
