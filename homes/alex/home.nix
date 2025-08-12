@@ -20,6 +20,7 @@
     outputs.homeManagerModules.waybar
 
     outputs.dotfilesModules.niri
+    outputs.dotfilesModules.waybar
 
     # Or modules exported from other flakes (such as nix-colors):
     # inputs.nix-colors.homeManagerModules.default

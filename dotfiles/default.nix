@@ -5,4 +5,5 @@
   # my-module = import ./my-module.nix;
 
   niri = import ./niri/default.nix;
+  waybar = import ./waybar/default.nix;
 }
