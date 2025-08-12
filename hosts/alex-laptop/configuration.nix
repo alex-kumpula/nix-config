@@ -15,6 +15,7 @@
 
     outputs.nixosModules.gnome
     outputs.nixosModules.niri
+    outputs.nixosModules.alacritty
 
     # Or modules from other flakes (such as nixos-hardware):
     # inputs.hardware.nixosModules.common-cpu-amd
