@@ -10,4 +10,5 @@
   swaybg = import ./swaybg.nix;
   waybar = import ./waybar.nix;
   fuzzel = import ./fuzzel.nix;
+  discord = import ./discord.nix;
 }
