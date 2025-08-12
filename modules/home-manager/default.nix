@@ -8,4 +8,5 @@
   zsh = import ./zsh.nix;
   steam = import ./steam.nix;
   swaybg = import ./swaybg.nix;
+  waybar = import ./waybar.nix;
 }
