@@ -71,7 +71,7 @@
         extraSpecialArgs = {inherit inputs outputs;};
         modules = [
           # > Our main home-manager configuration file <
-          ./homes/alex/home.nix
+          ./homes/alex/default.nix
         ];
       };
     };
