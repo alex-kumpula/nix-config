@@ -17,6 +17,8 @@
     outputs.homeManagerModules.zsh
     outputs.homeManagerModules.steam
 
+    outputs.dotfilesModules.niri
+
     # Or modules exported from other flakes (such as nix-colors):
     # inputs.nix-colors.homeManagerModules.default
 
