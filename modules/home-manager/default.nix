@@ -9,6 +9,7 @@
   steam = import ./steam.nix;
   swaybg = import ./swaybg.nix;
   waybar = import ./waybar.nix;
+  eww = import ./eww.nix;
   fuzzel = import ./fuzzel.nix;
   discord = import ./discord.nix;
   pavucontrol = import ./pavucontrol.nix;

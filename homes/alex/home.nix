@@ -13,7 +13,9 @@
     # If you want to use modules your own flake exports (from modules/home-manager):
     # outputs.homeManagerModules.example
 
-    outputs.homeManagerModules.git
+    (outputs.homeManagerModules.git { 
+      gitUserName = "Alex Kumpula";
+    })
     outputs.homeManagerModules.zsh
     outputs.homeManagerModules.steam
     outputs.homeManagerModules.swaybg
@@ -24,6 +26,7 @@
     outputs.homeManagerModules.vscode-fsh
     outputs.homeManagerModules.unityhub
     outputs.homeManagerModules.godot
+    outputs.homeManagerModules.eww
 
     outputs.dotfilesModules.niri
     outputs.dotfilesModules.waybar
