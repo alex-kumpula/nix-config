@@ -69,6 +69,7 @@
   };
 
 
+
 ######################################################
 
   # FIXME - DONE?: Add the rest of your current configuration
@@ -111,7 +112,7 @@
 
   # Enable sound with pipewire.
   # services.pulseaudio.enable = false;
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
