@@ -16,6 +16,7 @@
     outputs.homeManagerModules.git
     outputs.homeManagerModules.zsh
     outputs.homeManagerModules.steam
+    outputs.homeManagerModules.swaybg
 
     outputs.dotfilesModules.niri
 
