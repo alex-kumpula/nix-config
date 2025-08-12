@@ -23,6 +23,7 @@
     outputs.homeManagerModules.discord
     outputs.homeManagerModules.vscode-fsh
     outputs.homeManagerModules.unityhub
+    outputs.homeManagerModules.godot
 
     outputs.dotfilesModules.niri
     outputs.dotfilesModules.waybar
