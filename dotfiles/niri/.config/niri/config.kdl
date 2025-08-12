@@ -266,8 +266,7 @@ environment {
 }
 
 // background
-//spawn-at-startup "swaybg" "-m" "fill" "-i" "$HOME/Pictures/Backgrounds/wallpaper1.jpg"
-spawn-at-startup "sh" "-c" "swaybg -m fill -i \"$HOME/Pictures/Backgrounds/wallpaper1.jpg\""
+spawn-at-startup "sh" "-c" "swaybg -m fill -i \"$HOME/.config/wallpapers/wallpaper1.jpg\""
 // Put swaybg inside the overview backdrop.
 
 // The following moves swaybg to the overview background

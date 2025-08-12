@@ -7,4 +7,5 @@
   git = import ./git.nix;
   zsh = import ./zsh.nix;
   steam = import ./steam.nix;
+  swaybg = import ./swaybg.nix;
 }
