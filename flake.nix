@@ -49,7 +49,7 @@
     # These are usually stuff you would upstream into home-manager
     homeManagerModules = import ./modules/home-manager;
     # Reusable dotfiles modules you might want to export
-    dotfilesModules = import ./modules/dotfiles;
+    dotfilesModules = import ./dotfiles;
 
 
     # NixOS configuration entrypoint
