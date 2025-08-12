@@ -9,4 +9,5 @@
   steam = import ./steam.nix;
   swaybg = import ./swaybg.nix;
   waybar = import ./waybar.nix;
+  fuzzel = import ./fuzzel.nix;
 }

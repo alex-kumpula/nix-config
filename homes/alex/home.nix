@@ -18,6 +18,7 @@
     outputs.homeManagerModules.steam
     outputs.homeManagerModules.swaybg
     outputs.homeManagerModules.waybar
+    outputs.homeManagerModules.fuzzel
 
     outputs.dotfilesModules.niri
     outputs.dotfilesModules.waybar
