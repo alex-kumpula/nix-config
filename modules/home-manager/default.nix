@@ -6,4 +6,5 @@
 
   git = import ./git.nix;
   zsh = import ./zsh.nix;
+  steam = import ./steam.nix;
 }
