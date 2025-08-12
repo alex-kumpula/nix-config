@@ -11,4 +11,5 @@
   waybar = import ./waybar.nix;
   fuzzel = import ./fuzzel.nix;
   discord = import ./discord.nix;
+  pavucontrol = import ./pavucontrol.nix;
 }

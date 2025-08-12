@@ -19,6 +19,7 @@
     outputs.homeManagerModules.swaybg
     outputs.homeManagerModules.waybar
     outputs.homeManagerModules.fuzzel
+    outputs.homeManagerModules.pavucontrol
     outputs.homeManagerModules.discord
 
     outputs.dotfilesModules.niri
