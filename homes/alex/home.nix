@@ -13,7 +13,8 @@
     # If you want to use modules your own flake exports (from modules/home-manager):
     # outputs.homeManagerModules.example
 
-    (outputs.homeManagerModules.git { 
+    (outputs.homeManagerModules.git {
+      inherit pkgs;
       gitUserName = "Alex Kumpula";
       gitUserEmail = "alex.kumpula01@gmail.com";
     })
