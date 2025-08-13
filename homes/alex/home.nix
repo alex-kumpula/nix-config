@@ -15,6 +15,7 @@
 
     (outputs.homeManagerModules.git { 
       gitUserName = "Alex Kumpula";
+      gitUserEmail = "alex.kumpula01@gmail.com";
     })
     outputs.homeManagerModules.zsh
     outputs.homeManagerModules.steam
@@ -30,6 +31,7 @@
 
     outputs.dotfilesModules.niri
     outputs.dotfilesModules.waybar
+    outputs.dotfilesModules.eww
 
     # Or modules exported from other flakes (such as nix-colors):
     # inputs.nix-colors.homeManagerModules.default
