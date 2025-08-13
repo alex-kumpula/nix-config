@@ -8,4 +8,3 @@
   waybar = import ./waybar/default.nix;
   eww = import ./eww/default.nix;
 }
-waybar
