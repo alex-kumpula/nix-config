@@ -5,7 +5,11 @@ in
 {
   options.alexModules.programs.firefox = {
     enable = lib.mkEnableOption "Firefox browser";
-    package = lib.mkPackageOption pkgs "firefox" "The Firefox browser package";
+    package = lib.mkOption {
+        type = lib.types.package;
+        default = pkgs.firefox;
+        description = "The Firefox browser package";
+    };
   };
 
   config = lib.mkIf cfg.programs.firefox.enable {
