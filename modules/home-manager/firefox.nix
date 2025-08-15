@@ -6,25 +6,25 @@ in
   options.alexModules.programs.firefox = {
     enable = lib.mkEnableOption "Firefox browser";
     package = lib.mkOption {
-        type = lib.types.package;
-        default = pkgs.firefox;
-        description = "The Firefox browser package";
+      type = lib.types.package;
+      default = pkgs.firefox;
+      description = "The Firefox browser package";
     };
   };
 
   config = lib.mkIf cfg.programs.firefox.enable {
-        home.packages = [
-            cfg.programs.firefox.package
-        ];
+    home.packages = [
+      cfg.programs.firefox.package
+    ];
 
-        cfg.programs.firefox.profiles = {
-            default = {
-                name = "Alex";
-                extensions = with pkgs.firefox-addons; [
-                    ublock-origin
-                    privacy-badger
-                ];
-            };
-        };
+    cfg.programs.firefox.profiles = {
+      default = {
+        name = "Alex";
+        # extensions = with pkgs.firefox-addons; [
+        #   ublock-origin
+        #   privacy-badger
+        # ];
+      };
     };
+  };
 }
