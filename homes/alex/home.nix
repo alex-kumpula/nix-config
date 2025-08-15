@@ -29,6 +29,7 @@
     outputs.homeManagerModules.unityhub
     outputs.homeManagerModules.godot
     outputs.homeManagerModules.eww
+    outputs.homeManagerModules.firefox
 
     outputs.dotfilesModules.niri
     outputs.dotfilesModules.waybar

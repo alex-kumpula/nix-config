@@ -18,7 +18,7 @@
     outputs.nixosModules.niri
     outputs.nixosModules.xwayland-satellite
     outputs.nixosModules.alacritty
-    outputs.nixosModules.firefox
+    # outputs.nixosModules.firefox
     outputs.nixosModules.git
 
     # Or modules from other flakes (such as nixos-hardware):
