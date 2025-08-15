@@ -10,7 +10,7 @@ in
       default = pkgs.firefox;
       description = "The Firefox browser package";
     };
-    options.alexModules.programs.firefox.profiles = lib.mkOption {
+    profiles = lib.mkOption {
       type = lib.types.attrsOf (lib.types.submodule {
         options = {
           name = lib.mkOption { type = lib.types.str; default = "Default"; };
