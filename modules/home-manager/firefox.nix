@@ -16,5 +16,15 @@ in
     home.packages = [
       cfg.programs.firefox.package
     ];
+
+    cfg.programs.firefox.profiles = {
+    default = {
+      name = "Alex";
+      extensions = with pkgs.firefox-addons; [
+        ublock-origin
+        privacy-badger
+      ];
+    };
+    
   };
 }
