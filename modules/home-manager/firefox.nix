@@ -1,15 +1,16 @@
 { config, lib, pkgs, ... }:
+let
+  cfg = config.alexModules.programs.firefox;
+in
 {
-    options = {
-        options.alexModules.programs.firefox = {
-            enable = lib.mkEnableOption "Firefox browser";
-            package = lib.mkPackageOption pkgs "firefox" "The Firefox browser package";
-        };
-    };
+  options.alexModules.programs.firefox = {
+    enable = lib.mkEnableOption "Firefox browser";
+    package = lib.mkPackageOption pkgs "firefox" "The Firefox browser package";
+  };
 
-    config = lib.mkIf config.alexModules.programs.firefox.enable {
-        home.packages = with pkgs; [
-            config.programs.firefox.package
-        ];
-    };
+  config = lib.mkIf cfg.enable {
+    home.packages = [
+      cfg.package
+    ];
+  };
 }
