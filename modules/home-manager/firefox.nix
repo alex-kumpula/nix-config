@@ -12,12 +12,12 @@ in
     };
   };
 
-  config = lib.mkIf config.alexModules.programs.firefox.enable {
+  config = lib.mkIf cfg.programs.firefox.enable {
     home.packages = [
-      config.alexModules.programs.firefox.package
+      cfg.programs.firefox.package
     ];
 
-    config.alexModules.programs.firefox.profiles = {
+    alexModules.programs.firefox.profiles = {
       default = {
         name = "Alex";
         # extensions = with pkgs.firefox-addons; [
