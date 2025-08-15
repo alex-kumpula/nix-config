@@ -29,6 +29,7 @@
     outputs.homeManagerModules.unityhub
     outputs.homeManagerModules.godot
     outputs.homeManagerModules.eww
+
     outputs.homeManagerModules.firefox
 
     outputs.dotfilesModules.niri
@@ -41,6 +42,13 @@
     # You can also split up your configuration and import pieces of it here:
     # ./nvim.nix
   ];
+
+  alexModules = {
+    programs.firefox = {
+      enable = true;
+      package = pkgs.firefox;
+    };
+  };
 
   nixpkgs = {
     # You can add overlays here
